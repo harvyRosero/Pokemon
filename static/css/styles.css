@@ -1,0 +1,25 @@
+#title-toolbar{
+    background-color: #c7f8fa;
+}
+
+#logo{
+    height: 5rem;
+}
+
+#trigger-button{
+    visibility: hidden;
+}
+
+#card-header{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/appturism-7b352.appspot.com/o/lugares%2Fbackground.gif?alt=media&token=6b9dc7bb-b02a-44fe-bef2-0c60158a4699');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+@media Screen and (max-width: 700px) {
+    #logo{
+        padding: 1%;
+    }
+}
