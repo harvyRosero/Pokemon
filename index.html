@@ -118,15 +118,15 @@
                 <ion-div >
                     <ion-row >
                         <ion-col >
-                            <img id="img-pokemon1" >
+                            <img id="img-pokemon1" onClick="changeImgPosition(src, id)"  >
                         </ion-col>
 
                         <ion-col>
-                            <img id="img-pokemon2" >
+                            <img id="img-pokemon2" onClick="changeImgPosition(src, id)" >
                         </ion-col>
 
                         <ion-col  >
-                            <img id="img-pokemon3" >
+                            <img id="img-pokemon3" onClick="changeImgPosition(src, id)">
                         </ion-col>
                     </ion-row>
 
@@ -134,7 +134,7 @@
                         <ion-col>
                             <ion-row>
                                 <ion-col>
-                                    <b>Ability :</b>
+                                    <b>Ability:</b>
                                 </ion-col>
 
                                 <ion-col id="ability">
@@ -185,6 +185,9 @@
             </ion-card>
           </ion-content>
         </ion-modal>
+
+
+
       </ion-content>
     </ion-app>
 

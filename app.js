@@ -168,6 +168,18 @@ function pokemonDetailModal(id, array) {
   }
 }
 
+function changeImgPosition(src, id){
+  const img = document.getElementById("pokemon-img");
+  const src2 = img.getAttribute("src");
+
+  img.setAttribute("src", src);
+
+  const imgChange = document.getElementById(id);
+  imgChange.setAttribute("src", src2);
+
+}
+
+
 var slides = document.querySelector("ion-slides");
 
 slides.options = {
